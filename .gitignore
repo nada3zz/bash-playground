@@ -1,0 +1,42 @@
+# Ignore the .env file (contains sensitive information)
+.env
+
+# Ignore log files
+*.log
+
+# Ignore backup files
+*.bak
+*.backup
+
+# Ignore temporary files
+*.tmp
+*.temp
+
+# Ignore output files
+*.out
+*.output
+
+# Ignore compiled scripts (if any)
+*.shc
+
+# Ignore directories
+backup/
+tmp/
+logs/
+
+# Ignore specific files
+script.sh.bak
+test_output.log
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Vim swap files
+*.swp
+*.swo
+
+# Ignore IDE/editor specific files
+.vscode/
+.idea/
+*.swp
+*.swo
